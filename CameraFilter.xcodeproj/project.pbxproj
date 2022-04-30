@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC3C473281D106800DC4576 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3C472281D106800DC4576 /* FilterService.swift */; };
 		1EF314BF281B9CD300DA9625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF314BE281B9CD300DA9625 /* AppDelegate.swift */; };
 		1EF314C1281B9CD300DA9625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF314C0281B9CD300DA9625 /* SceneDelegate.swift */; };
 		1EF314C3281B9CD300DA9625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF314C2281B9CD300DA9625 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EC3C472281D106800DC4576 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		1EF314BB281B9CD300DA9625 /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF314BE281B9CD300DA9625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF314C0281B9CD300DA9625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				1EF314C7281B9CD400DA9625 /* Assets.xcassets */,
 				1EF314C9281B9CD400DA9625 /* LaunchScreen.storyboard */,
 				1EF314CC281B9CD400DA9625 /* Info.plist */,
+				1EC3C472281D106800DC4576 /* FilterService.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				1EF314C3281B9CD300DA9625 /* ViewController.swift in Sources */,
 				1EF314DC281BA70A00DA9625 /* PhotoCollectionViewCell.swift in Sources */,
 				1EF314BF281B9CD300DA9625 /* AppDelegate.swift in Sources */,
+				1EC3C473281D106800DC4576 /* FilterService.swift in Sources */,
 				1EF314C1281B9CD300DA9625 /* SceneDelegate.swift in Sources */,
 				1EF314D3281B9DA600DA9625 /* PhotosCollectionViewController.swift in Sources */,
 			);
