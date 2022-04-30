@@ -69,7 +69,12 @@ extension PhotosCollectionViewController {
         PHImageManager.default().requestImage(for: selectedAsset, targetSize: CGSize(width: 300, height: 300), contentMode: .aspectFit, options: nil) { [weak self] image, info in
             guard let info = info else { return }
             let isDegradedImage = info["PHImageResultIsDegradedKey"] as! Bool
-               }
+            if !isDegradedImage {
+                guard let selecteImage = image else { return }
+                self?.selectedPhotoSubject.onNext(selecteImage)
+                self?.dismiss(animated: true, completion: nil)
+            }
+        }
     }
 }
 
